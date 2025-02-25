@@ -15,7 +15,7 @@ app.use(cors());
 app.use("/api", ProductRoute);
 mongoose
   .connect(
-    "mongodb+srv://sohel:sohel@mern-state.ier4ijb.mongodb.net/?retryWrites=true&w=majority&appName=mern-state"
+    "mongodb+srv://DeshIt:sohel123@cluster0.ltkb7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     const server = http.createServer(app);
